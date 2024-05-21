@@ -43,7 +43,7 @@ const Tweet = ({ tweet }) => (
 
 const Index = () => {
   return (
-    <Container maxW="container.lg" p={0}>
+    <Container maxW="container.lg" p={0} m={4}>
       <HStack align="start" spacing={0}>
         {/* Sidebar */}
         <VStack w="20%" p={4} spacing={4} align="start" borderRight="1px" borderColor="gray.200">
